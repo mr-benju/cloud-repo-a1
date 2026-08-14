@@ -38,13 +38,16 @@ Base de Datos: PostgreSQL 15+.
 
 ## Estructura del Repositorio
 
+## Estructura del Repositorio
+
+```text
 cloud-repo-a1/
 ├── docs/                   # Documentación técnica y arquitectura
 │   ├── arquitectura.md
-│   ├── desiciones.md
+│   ├── decisiones.md
 │   ├── reglasNegocio.md
 │   └── requerimientos.md
-├── backend/                # Proyecto Backend Java / Spring Boot
+├── backend/                # API REST - Java 21 / Spring Boot
 │   ├── src/main/java/com/diagnostico/incidencias/
 │   │   ├── controller/     # Endpoints REST (IncidenciaController)
 │   │   ├── dto/            # Data Transfer Objects
@@ -65,6 +68,7 @@ cloud-repo-a1/
 │   └── nginx.conf          # Configuración del servidor web Nginx
 ├── docker-compose.yml      # Orquestación de contenedores (App + DB)
 └── README.md               # Guía principal del proyecto
+```
 
 ## Requisitos Previos:
 ## Para ejecutar la aplicación localmente solo necesitas tener instalado:
